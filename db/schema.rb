@@ -10,9 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20171110224222) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "planets", force: :cascade do |t|
+    t.string   "name",              null: false
+    t.decimal  "mass"
+    t.integer  "diameter"
+    t.integer  "density"
+    t.decimal  "gravity"
+    t.decimal  "rotation_period"
+    t.decimal  "length_of_day"
+    t.decimal  "distance_from_sun"
+    t.decimal  "orbital_period"
+    t.decimal  "orbital_velocity"
+    t.integer  "mean_temperature"
+    t.integer  "number_of_moons"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.index ["name"], name: "index_planets_on_name", unique: true, using: :btree
+  end
 
 end
