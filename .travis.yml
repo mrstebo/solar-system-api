@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.4.1
+script:
+  - bin/rails db:migrate RAILS_ENV=test
+  - bin/rails spec
+services:
+  - postgresql
+addons:
+  postgresql: "9.4"
