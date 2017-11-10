@@ -2,8 +2,8 @@ language: ruby
 rvm:
   - 2.4.1
 script:
-  - bin/rails db:migrate RAILS_ENV=test
-  - bin/rails spec
+  - bundle exec rake db:migrate RAILS_ENV=test
+  - bundle exec rake spec
 services:
   - postgresql
 addons:
