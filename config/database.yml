@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  username: postgres
+  host: db
+
+development:
+  <<: *default
+  database: solar-system-api_development
+
+test:
+  <<: *default
+  database: solar-system-api_test
+
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
