@@ -1,6 +1,6 @@
 # Solar System API
 
-[![Build Status](https://travis-ci.org/mrstebo/fakergem.svg?branch=master)](https://travis-ci.org/mrstebo/fakergem)
+[![Build Status](https://travis-ci.org/mrstebo/solar-system-api.svg?branch=master)](https://travis-ci.org/mrstebo/solar-system-api)
 
 An API for accessing information about the solar system
 
