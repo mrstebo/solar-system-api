@@ -1,16 +1,5 @@
-default: &default
+test:
   adapter: postgresql
   encoding: unicode
   pool: 5
-
-development:
-  <<: *default
-  database: solar-system-api_development
-
-test:
-  <<: *default
-  database: solar-system-api_test
-
-production:
-  <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+  database: travis
