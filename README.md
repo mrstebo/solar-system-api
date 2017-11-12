@@ -6,5 +6,5 @@ An API for accessing information about the solar system
 
 It exposes the following routes:
 
-- /planets
-- /planets/:planet_name
+- [/planets](https://dry-plains-91502.herokuapp.com/planets)
+- [/planets/:planet_name](https://dry-plains-91502.herokuapp.com/planets/earth)
