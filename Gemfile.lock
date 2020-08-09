@@ -74,7 +74,7 @@ GEM
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     pg (1.0.0)
-    puma (3.12.4)
+    puma (3.12.6)
     rack (2.2.3)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -153,7 +153,7 @@ DEPENDENCIES
   faraday
   listen (~> 3.0.5)
   pg
-  puma (~> 3.12, >= 3.12.4)
+  puma (~> 3.12)
   rails (~> 5.0.7, >= 5.0.7.2)
   rspec-collection_matchers
   rspec-rails (= 3.5.1)
