@@ -8,7 +8,7 @@ end
 
 gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 gem 'pg'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3', '>= 4.3.9'
 # gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # gem 'bcrypt', '~> 3.1.7'
