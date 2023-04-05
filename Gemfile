@@ -6,9 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 gem 'pg'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 # gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # gem 'bcrypt', '~> 3.1.7'
@@ -27,7 +27,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.1'
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
