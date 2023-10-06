@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
-gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
+gem 'rails', '~> 7.1.0'
 gem 'pg'
 gem 'puma', '~> 3.12'
 # gem 'jbuilder', '~> 2.5'
@@ -18,16 +18,16 @@ gem 'puma', '~> 3.12'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
-  gem 'rspec-rails', '3.5.1'
+  gem 'rspec-rails', '3.5.2'
   gem 'rspec-collection_matchers'
-  gem 'factory_girl_rails', '4.7.0'
+  gem 'factory_girl_rails', '4.8.0'
 end
 
 group :development do
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.1.0'
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
